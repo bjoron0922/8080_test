@@ -6,5 +6,9 @@
         "board/esp32s3-builtin.cfg"
     ],
     "idf.portWin": "COM14",
-    "idf.toolsPathWin": "c:\\Users\\gnorf\\esp-idf\\tools"
+    "idf.toolsPathWin": "c:\\Users\\gnorf\\esp-idf\\tools",
+    "idf.flashType": "UART",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    }
 }
