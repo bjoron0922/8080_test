@@ -1,0 +1,2 @@
+source C:/av_esp/8080_test/build/gdbinit/symbols
+source C:/av_esp/8080_test/build/gdbinit/connect

@@ -1,0 +1,103 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=c:\Users\gnorf\esp-idf\tools\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DSDKCONFIG=c:\av_esp\8080_test\sdkconfig -DCCACHE_ENABLE=1 C:\av_esp\8080_test
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32 is out of date.  Run the
+  following command to fix: git submodule update --init --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c3_family is out of date.
+  Run the following command to fix: git submodule update --init --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c5/esp32c5-bt-lib is out of
+  date.  Run the following command to fix: git submodule update --init
+  --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c6/esp32c6-bt-lib is out of
+  date.  Run the following command to fix: git submodule update --init
+  --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32h2/esp32h2-bt-lib is out of
+  date.  Run the following command to fix: git submodule update --init
+  --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/host/nimble/nimble is out of date.  Run the
+  following command to fix: git submodule update --init --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_coex/lib is out of date.  Run the following
+  command to fix: git submodule update --init --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_phy/lib is out of date.  Run the following
+  command to fix: git submodule update --init --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+
+CMake Warning at C:/Users/gnorf/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_wifi/lib is out of date.  Run the following
+  command to fix: git submodule update --init --recursive
+Call Stack (most recent call first):
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:109 (git_submodule_check)
+  C:/Users/gnorf/esp-idf/tools/cmake/build.cmake:272 (__build_get_idf_git_revision)
+  C:/Users/gnorf/esp-idf/tools/cmake/idf.cmake:55 (__build_init)
+  C:/Users/gnorf/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:3 (include)
+
+

@@ -1,0 +1,6 @@
+source "C:/Users/gnorf/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/gnorf/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "C:/Users/gnorf/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/gnorf/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/gnorf/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/av_esp/8080_test/main/Kconfig.projbuild"
