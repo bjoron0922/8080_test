@@ -107,7 +107,7 @@ void app_main(void) {
     /*0x04 is the register to write image data to LT7381/ER-TFTMC050-3*/
     cmd = 0x04;
     for (uint32_t i = 0; i < 384000; i++) {
-        param = 0b00000000;
+        param = 0b00011111;
         ESP_ERROR_CHECK(esp_lcd_panel_io_tx_param(io_handle, cmd, &param, 1));
         param = 0b11111000;
         ESP_ERROR_CHECK(esp_lcd_panel_io_tx_param(io_handle, cmd, &param, 1)); 
