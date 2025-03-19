@@ -120,7 +120,7 @@ void app_main(void) {
     lv_display_t *display = lv_display_create(EXAMPLE_LCD_H_RES, EXAMPLE_LCD_V_RES);
 
     // it's recommended to choose the size of the draw buffer(s) to be at least 1/10 screen sized
-    size_t draw_buffer_sz = EXAMPLE_LCD_H_RES * EXAMPLE_LVGL_DRAW_BUF_LINES * sizeof(lv_color16_t);
+    size_t draw_buffer_sz = EXAMPLE_LCD_H_RES * EXAMPLE_LCD_V_RES * sizeof(lv_color16_t) / 10;
     // alloc draw buffers used by LVGL
     uint32_t draw_buf_alloc_caps = 0;
 #if CONFIG_EXAMPLE_LCD_I80_COLOR_IN_PSRAM

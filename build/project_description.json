@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "8080_test",
-    "project_version":    "97b6424-dirty",
+    "project_version":    "fe5cf10-dirty",
     "project_path":       "C:/av_esp/8080_test",
     "idf_path":           "C:/Users/gnorf/esp-idf",
     "build_dir":          "C:/av_esp/8080_test/build",
